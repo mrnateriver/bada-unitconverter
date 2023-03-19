@@ -1,0 +1,1082 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<units_conversion>
+	<!--
+	/*
+	* Copyright (c) 2016 Evgenii Dobrovidov
+	* This file is part of "Unit Converter".
+	*
+	* "Unit Converter" is free software: you can redistribute it and/or modify
+	* it under the terms of the GNU General Public License as published by
+	* the Free Software Foundation, either version 3 of the License, or
+	* (at your option) any later version.
+	*
+	* "Unit Converter" is distributed in the hope that it will be useful,
+	* but WITHOUT ANY WARRANTY; without even the implied warranty of
+	* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	* GNU General Public License for more details.
+	*
+	* You should have received a copy of the GNU General Public License
+	* along with "Unit Converter".  If not, see <http://www.gnu.org/licenses/>.
+	*/
+	-->
+	<category en="Currencies" ru="Валюты" ref="4" icon_path="currency_icon.png" small_icon_path="currency_icon_title.png" sp_id="6">
+		<system en="Local currency" ru="Местная валюта">
+		</system>
+		<system en="Widespread currencies" ru="Распространенные валюты">
+			<unit en="US dollar ($)" ru="Доллар США ($)" ratio="1.0" ccode="USD" />
+			<unit en="Euro (€)" ru="Евро (€)" ratio="1.0" ccode="EUR" />
+		</system>
+		<system en="Other currencies" ru="Другие валюты">
+			<unit en="Argentine peso ($)" ru="Аргентинское песо ($)" ratio="1.0" ccode="ARS" />
+			<unit en="Australian dollar (A$)" ru="Австралийский доллар (A$)" ratio="1.0" ccode="AUD" />
+			<unit en="Bolivian boliviano ($b)" ru="Боливийский боливиано ($b)" ratio="1.0" ccode="BOB" />
+			<unit en="Botswana pula (P)" ru="Ботсванская пула (P)" ratio="1.0" ccode="BWP" />
+			<unit en="Bulgarian lev (лв)" ru="Болгарский лев (лв)" ratio="1.0" ccode="BGN" />
+			<unit en="Brazilian real (R$)" ru="Бразильский реал (R$)" ratio="1.0" ccode="BRL" />
+			<unit en="Pound sterling (£)" ru="Фунт стерлингов (£)" ratio="1.0" ccode="GBP" />
+			<unit en="Brunei dollar (B$)" ru="Брунейский доллар (B$)" ratio="1.0" ccode="BND" />
+			<unit en="Canadian dollar (C$)" ru="Канадский доллар (C$)" ratio="1.0" ccode="CAD" />
+			<unit en="Cayman Islands dollar ($)" ru="Доллар Кай- мановых о-вов ($)" ratio="1.0" ccode="KYD" />
+			<unit en="Chilean peso ($)" ru="Чилийское песо ($)" ratio="1.0" ccode="CLP" />
+			<unit en="Chinese Yuan Renminbi (¥)" ru="Китайский юань  (¥)" ratio="1.0" ccode="CNY" />
+			<unit en="Colombian peso ($)" ru="Колумбийское песо ($)" ratio="1.0" ccode="COP" />
+			<unit en="Costa Rican colón (₡)" ru="Костариканский колон (₡)" ratio="1.0" ccode="CRC" />
+			<unit en="Croatian kuna (kn)" ru="Хорватская куна (kn)" ratio="1.0" ccode="HRK" />
+			<unit en="Czech koruna (Kč)" ru="Чешская крона (Kč)" ratio="1.0" ccode="CZK" />
+			<unit en="Danish krone (kr)" ru="Датская крона (kr)" ratio="1.0" ccode="DKK" />
+			<unit en="Dominican peso (RD$)" ru="Доминиканское песо (RD$)" ratio="1.0" ccode="DOP" />
+			<unit en="Egyptian pound (£)" ru="Египетский фунт (£)" ratio="1.0" ccode="EGP" />
+			<unit en="Salvadoran colón (₡)" ru="Сальвадорский колон (₡)" ratio="1.0" ccode="SVC" />
+			<unit en="Fijian dollar (FJ$)" ru="Доллар Фиджи (FJ$)" ratio="1.0" ccode="FJD" />
+			<unit en="Honduran lempira (L)" ru="Гондурасская лемпира (L)" ratio="1.0" ccode="HNL" />
+			<unit en="Hong Kong dollar (HK$)" ru="Гонконгский доллар (HK$)" ratio="1.0" ccode="HKD" />
+			<unit en="Hungarian forint (Ft)" ru="Венгерский форинт (Ft)" ratio="1.0" ccode="HUF" />
+			<unit en="Indian rupee (₨)" ru="Индийская рупия (₨)" ratio="1.0" ccode="INR" />
+			<unit en="Indonesian rupiah (Rp)" ru="Индонезийская рупия (Rp)" ratio="1.0" ccode="IDR" />
+			<unit en="Israeli new shekel (₪)" ru="Израильский новый шекель (₪)" ratio="1.0" ccode="ILS" />
+			<unit en="Jamaican dollar (J$)" ru="Ямайский доллар (J$)" ratio="1.0" ccode="JMD" />
+			<unit en="Japanese yen (¥)" ru="Японская иена (¥)" ratio="1.0" ccode="JPY" />
+			<unit en="Kazakhstani tenge (KZT)" ru="Казахстанский тенге (KZT)" ratio="1.0" ccode="KZT" />
+			<unit en="Kuwaiti dinar (K.D.)" ru="Кувейтский динар (K.D.)" ratio="1.0" ccode="KWD" />
+			<unit en="South Korean won (₩)" ru="Южнокорейская вона (₩)" ratio="1.0" ccode="KRW" />
+			<unit en="Latvian lats (Ls)" ru="Латвийский лат (Ls)" ratio="1.0" ccode="LVL" />
+			<unit en="Lebanese pound (L£)" ru="Ливанский фунт (L£)" ratio="1.0" ccode="LBP" />
+			<unit en="Swiss franc (CHF)" ru="Швейцарский франк (CHF)" ratio="1.0" ccode="CHF" />
+			<unit en="Lithuanian litas (Lt)" ru="Литовский лит (Lt)" ratio="1.0" ccode="LTL" />
+			<unit en="Macedonian denar (ден)" ru="Македонский денар (ден)" ratio="1.0" ccode="MKD" />
+			<unit en="Malaysian ringgit (RM)" ru="Малайзийский ринггит (RM)" ratio="1.0" ccode="MYR" />
+			<unit en="Mauritian rupee (₨)" ru="Маврикийская рупия (₨)" ratio="1.0" ccode="MUR" />
+			<unit en="Mexican peso (Mex$)" ru="Мексиканское песо (Mex$)" ratio="1.0" ccode="MXN" />
+			<unit en="Namibian dollar (N$)" ru="Доллар Намибии (N$)" ratio="1.0" ccode="NAD" />
+			<unit en="Nepalese rupee (रू.)" ru="Непальская рупия (रू.)" ratio="1.0" ccode="NPR" />
+			<unit en="Antillean guilder (NAƒ)" ru="Антильский гульден (NAƒ)" ratio="1.0" ccode="ANG" />
+			<unit en="New Zealand dollar ($)" ru="Новозеландский доллар ($)" ratio="1.0" ccode="NZD" />
+			<unit en="Nicaraguan córdoba (C$)" ru="Никарагуанская кордоба (C$)" ratio="1.0" ccode="NIO" />
+			<unit en="Nigerian naira (₦)" ru="Нигерийская найра (₦)" ratio="1.0" ccode="NGN" />
+			<unit en="Norwegian krone (kr)" ru="Норвежская крона (kr)" ratio="1.0" ccode="NOK" />
+			<unit en="Omani rial (OMR)" ru="Оманский риал (OMR)" ratio="1.0" ccode="OMR" />
+			<unit en="Pakistani rupee (₨)" ru="Пакистанская рупия (₨)" ratio="1.0" ccode="PKR" />
+			<unit en="Paraguayan guaraní (G)" ru="Парагвайский гуарани (G)" ratio="1.0" ccode="PYG" />
+			<unit en="Peruvian nuevo sol (S/.)" ru="Перуанский новый соль (S/.)" ratio="1.0" ccode="PEN" />
+			<unit en="Philippine peso (Php)" ru="Филиппинское песо (Php)" ratio="1.0" ccode="PHP" />
+			<unit en="Polish złoty (zł)" ru="Польский злотый (zł)" ratio="1.0" ccode="PLN" />
+			<unit en="Qatari riyal (QR)" ru="Катарский риал (QR)" ratio="1.0" ccode="QAR" />
+			<unit en="Romanian new leu (lei)" ru="Румынский лей (lei)" ratio="1.0" ccode="RON" />
+			<unit en="Russian ruble (руб)" ru="Российский рубль (руб)" ratio="1.0" ccode="RUB" />
+			<unit en="Saudi riyal (SR)" ru="Саудовский риал (SR)" ratio="1.0" ccode="SAR" />
+			<unit en="Serbian dinar (РСД)" ru="Сербский динар (РСД)" ratio="1.0" ccode="RSD" />
+			<unit en="Seychellois rupee (SR)" ru="Сейшельская рупия (SR)" ratio="1.0" ccode="SCR" />
+			<unit en="Singapore dollar (S$)" ru="Сингапурский доллар (S$)" ratio="1.0" ccode="SGD" />
+			<unit en="South African rand (R)" ru="Южноафриканский ранд (R)" ratio="1.0" ccode="ZAR" />
+			<unit en="Sri Lankan rupee (₨)" ru="Шри-Ланкийская рупия (₨)" ratio="1.0" ccode="LKR" />
+			<unit en="Swedish krona (kr)" ru="Шведская крона (kr)" ratio="1.0" ccode="SEK" />
+			<unit en="New Taiwan dollar (NT$)" ru="Новый тайвань- ский доллар (NT$)" ratio="1.0" ccode="TWD" />
+			<unit en="Thai baht (฿)" ru="Тайский бат (฿)" ratio="1.0" ccode="THB" />
+			<unit en="Trinidad and Tobago dollar (TT$)" ru="Доллар Тринидада и Тобаго (TT$)" ratio="1.0" ccode="TTD" />
+			<unit en="Turkish lira (TL)" ru="Турецкая лира (TL)" ratio="1.0" ccode="TRY" />
+			<unit en="Ukrainian hryvnia (UAH)" ru="Украинская гривна (UAH)" ratio="1.0" ccode="UAH" />
+			<unit en="Uruguayan peso ($U)" ru="Уругвайское песо ($U)" ratio="1.0" ccode="UYU" />
+			<unit en="Uzbekistani som  (лв)" ru="Узбекистанский сум (лв)" ratio="1.0" ccode="UZS" />
+			<unit en="Vietnamese đồng (₫)" ru="Вьетнамский донг (₫)" ratio="1.0" ccode="VND" />
+			<unit en="Yemeni riyal (YER)" ru="Йеменский риал (YER)" ratio="1.0" ccode="YER" />
+		</system>
+	</category>
+	<category en="Weight and mass" ru="Вес и масса" ref="4" icon_path="weight_icon.png" small_icon_path="weight_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="kilotonne (kt)" ru="килотонна (кт)" ratio="1.0e-9" />
+			<unit en="tonne (t)" ru="тонна (т)" ratio="1.0e-6" />
+			<unit en="centner" ru="центнер (ц)" ratio="1.0e-5" />
+			<unit en="kilogram (kg)" ru="килограмм (кг)" ratio="0.001" />
+			<unit en="gram (g)" ru="грамм (г)" ratio="1.0" />
+			<unit en="centigram (cg)" ru="центиграмм (сг)" ratio="100.0" />
+			<unit en="milligram (mg)" ru="миллиграмм (мг)" ratio="1000.0" />
+			<unit en="microgram (mcg)" ru="микрограмм (мкг)" ratio="1000000.0" />
+			<unit en="atomic mass unit (amu)" ru="атомная единица массы (а.е.м.)" ratio="6.022142e+23" />
+			<unit en="kilonewton (kN)" ru="килоньютон (кН)" ratio="9.806652e-6" />
+			<unit en="newton (N)" ru="ньютон (Н)" ratio="0.009806652" />
+			<unit en="carat (ct)" ru="карат (кар)" ratio="5.0" />
+		</system>
+		<system en="Avoirdupois (U.S. / UK)" ru="Avoirdupois (США / Великобритания)">
+			<unit en="long ton (UK)" ru="длинная тонна (брит.)" ratio="9.842065e-7" />
+			<unit en="short ton (USA)" ru="короткая тонна (США)" ratio="1.102311e-6" />
+			<unit en="long hundredweight (UK)" ru="длинный центнер (брит.)" ratio="1.968413e-5" />
+			<unit en="short hundredweight (USA)" ru="короткий центнер (США)" ratio="2.204623e-5" />
+			<unit en="stone (st)" ru="стоун (st)" ratio="0.000157473" />
+			<unit en="pound (lb)" ru="фунт (lb)" ratio="0.002204623" />
+			<unit en="ounce (oz)" ru="унция (oz)" ratio="0.03527396" />
+			<unit en="dram (dr)" ru="драхма (dr)" ratio="0.5643834" />
+			<unit en="grain (gr)" ru="гран (gr)" ratio="15.43236" />
+		</system>
+		<system en="Troy weight" ru="Тройская система">
+			<unit en="pound" ru="фунт" ratio="0.002679229" />
+			<unit en="ounce" ru="унция" ratio="0.03215075" />
+			<unit en="pennyweight" ru="пеннивейт (вес пенни)" ratio="0.6430149" />
+			<unit en="carat (UK)" ru="английский карат" ratio="4.878049" />
+			<unit en="grain" ru="гран" ratio="15.43236" />
+			<unit en="mite" ru="майт" ratio="308.6472" />
+			<unit en="doite" ru="дойт" ratio="7407.532" />
+		</system>
+		<system en="Apothecaries' weight" ru="Британская аптечная система">
+			<unit en="pound" ru="фунт" ratio="0.002679229" />
+			<unit en="ounce" ru="унция" ratio="0.03215075" />
+			<unit en="dram" ru="драхма" ratio="0.257206" />
+			<unit en="scruple" ru="скрупул" ratio="0.7716179" />
+			<unit en="grain" ru="гран" ratio="15.43236" />
+		</system>
+		<system en="Japanese units" ru="Японские единицы">
+			<unit en="koku" ru="коку" ratio="5.543545e-6" />
+			<unit en="kann" ru="канн" ratio="0.0002666667" />
+			<unit en="kinn" ru="кинн" ratio="0.001666667" />
+			<unit en="monnme" ru="монм" ratio="0.2666667" />
+		</system>
+		<system en="Chinese imperial units" ru="Китайские империальные единицы">
+			<unit en="dan" ru="дан" ratio="2.0e-5" />
+			<unit en="jin" ru="джин" ratio="0.002" />
+			<unit en="liang" ru="лианг" ratio="0.02" />
+			<unit en="tael" ru="таел" ratio="0.02671725" />
+			<unit en="qian" ru="кян" ratio="0.2" />
+			<unit en="fen" ru="фен" ratio="2.0" />
+			<unit en="li" ru="ли" ratio="20.0" />
+			<unit en="hao" ru="хао" ratio="200.0" />
+			<unit en="si" ru="си" ratio="2000.0" />
+			<unit en="hu" ru="ху" ratio="20000.0" />
+		</system>
+		<system en="Thai units" ru="Тайские единицы">
+			<unit en="hap (pikul)" ru="хап (пикуль)" ratio="1.666667e-5" />
+			<unit en="chang (kati)" ru="чанг (кати)" ratio="0.0008333333" />
+			<unit en="tamlung" ru="тамлунг" ratio="0.01666667" />
+			<unit en="baht (tical)" ru="бат (тикаль)" ratio="0.06666667" />
+		</system>
+		<system en="Hong Kong units" ru="Гонконгские единицы">
+			<unit en="picul (tam)" ru="пикуль (там)" ratio="1.653467e-5" />
+			<unit en="catty (kan)" ru="кати (кан)" ratio="0.001653467" />
+			<unit en="tael (leung)" ru="таэл (леунг)" ratio="0.02645547" />
+			<unit en="mace (tsin)" ru="мейс (цин)" ratio="0.2645547" />
+			<unit en="candareen (fan)" ru="кандарин (фан)" ratio="2.645547" />
+			<unit en="tael troy" ru="тройский таэл" ratio="0.02671725" />
+			<unit en="mace troy" ru="тройский мейс" ratio="0.2671725" />
+			<unit en="candareen troy" ru="тройский кандарин" ratio="2.671725" />
+		</system>
+		<system en="Old Russian units" ru="Старорусские единицы">
+			<unit en="berkovets" ru="берковец" ratio="6.104827e-6" />
+			<unit en="pood" ru="пуд" ratio="6.104827e-5" />
+			<unit en="pound" ru="фунт" ratio="0.002441931" />
+			<unit en="lot" ru="лот" ratio="0.07814178" />
+			<unit en="zolotnik" ru="золотник" ratio="0.2344253" />
+			<unit en="dolya" ru="доля" ratio="22.50483" />
+		</system>
+		<system en="Old French units" ru="Старые французские единицы">
+			<unit en="quintal" ru="квинтал" ratio="2.042901e-5" />
+			<unit en="livre" ru="ливр" ratio="0.002042901" />
+		</system>
+		<system en="Old German units" ru="Старые германские единицы">
+			<unit en="doppelzentner" ru="доппельцентнер" ratio="1.0e-5" />
+			<unit en="zentner" ru="центнер" ratio="2.0e-5" />
+			<unit en="pfund" ru="фунт" ratio="0.002" />
+		</system>
+		<system en="Ancient Roman units" ru="Древнеримские единицы">
+			<unit en="centumpondus" ru="центумподий" ratio="3.067334e-5" />
+			<unit en="meen" ru="мина" ratio="0.001840401" />
+			<unit en="pondus (libra)" ru="подий (либра)" ratio="0.003067334" />
+			<unit en="ounce" ru="унция" ratio="0.03680801" />
+			<unit en="semiounce" ru="семунция" ratio="0.07361602" />
+			<unit en="duella" ru="дуэлла" ratio="0.110424" />
+			<unit en="sicilicus" ru="сицилий" ratio="0.147232" />
+			<unit en="milliaresium" ru="миллиаресий" ratio="0.1840401" />
+			<unit en="solid" ru="солид" ratio="0.2208481" />
+			<unit en="denarium" ru="денарий" ratio="0.2944641" />
+			<unit en="scruple" ru="скрупул" ratio="0.8833922" />
+		</system>
+		<system en="Ancient Greek units" ru="Древнегреческие единицы">
+			<unit en="talent" ru="талант" ratio="3.921569e-5" />
+			<unit en="mine" ru="мина" ratio="0.002352941" />
+			<unit en="tetradram	" ru="тетрадрахма" ratio="0.05882353" />
+			<unit en="dram" ru="драхма" ratio="0.2352941" />
+			<unit en="diobol" ru="диобол" ratio="0.7058823" />
+			<unit en="obol" ru="обол" ratio="1.411765" />
+			<unit en="halk" ru="хальк" ratio="11.29412" />
+		</system>
+		<system en="Biblical units" ru="Библейские единицы">
+			<unit en="talent" ru="талант" ratio="2.939497e-5" />
+			<unit en="mine" ru="мина" ratio="0.001763698" />
+			<unit en="shekel" ru="шекель" ratio="0.0881849" />
+			<unit en="pim" ru="пим" ratio="0.1322774" />
+			<unit en="beka" ru="бека" ratio="0.1763698" />
+			<unit en="gerah" ru="гера" ratio="1.763698" />
+		</system>
+		<system en="Baha'i faith units" ru="Единицы веры Бахаи">
+			<unit en="mithqal" ru="миткал" ratio="0.2746046" />
+			<unit en="nakhud" ru="накхуд" ratio="5.217487" />
+		</system>
+	</category>
+	<category en="Distance and length" ru="Длина и расстояние" ref="1" icon_path="distance_icon.png" small_icon_path="distance_icon_title.png" sp_id="5">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="kilometer (km)" ru="километр (км)" ratio="0.001" />
+			<unit en="meter (m)" ru="метр (м)" ratio="1.0" />
+			<unit en="decimeter (dm)" ru="дециметр (дм)" ratio="10.0" />
+			<unit en="centimeter (cm)" ru="сантиметр (см)" ratio="100.0" />
+			<unit en="millimeter (mm)" ru="миллиметр (мм)" ratio="1000.0" />
+			<unit en="micrometre (µm, µ)" ru="микрометр (мкм, мк)" ratio="1000000.0" />
+			<unit en="nanometer (nm)" ru="нанометр (нм)" ratio="1.0e+9" />
+			<unit en="angstrom (Å)" ru="ангстрем (Å)" ratio="1.0e+10" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="league (lea)" ru="лига, льё (lea)" ratio="0.0002071237" />
+			<unit en="mile (mi)" ru="миля (mi)" ratio="0.0006213712" />
+			<unit en="furlong (fur)" ru="фарлонг (fur)" ratio="0.00497097" />
+			<unit en="chain (ch)" ru="чейн (ch)" ratio="0.04970969" />
+			<unit en="rod (perch) (rd)" ru="род (перч) (rd)" ratio="0.1988388" />
+			<unit en="yard (yd)" ru="ярд (yd)" ratio="1.093613" />
+			<unit en="foot (ft)" ru="фут (ft)" ratio="3.28084" />
+			<unit en="survey foot (ft)" ru="топографический фут (ft)" ratio="3.280833" />
+			<unit en="link (li)" ru="линк (li)" ratio="4.970969" />
+			<unit en="hand" ru="ладонь" ratio="9.84252" />
+			<unit en="inch (in)" ru="дюйм (in)" ratio="39.37008" />
+			<unit en="line" ru="линия" ratio="472.4409" />
+			<unit en="mil" ru="мил" ratio="39370.08" />
+			<unit en="microinch (µin)" ru="микродюйм (µin)" ratio="3.937008e+7" />
+		</system>
+		<system en="Nautical units" ru="Морские единицы">
+			<unit en="sea league (lea)" ru="морская лига (lea)" ratio="0.0001799856" />
+			<unit en="sea mile (NM)" ru="морская миля (NM)" ratio="0.0005399568" />
+			<unit en="cable (cb)" ru="кабельтов (cb)" ratio="0.004556722" />
+			<unit en="short cable (cb)" ru="малый кабельтов (cb)" ratio="0.005399568" />
+			<unit en="fathom (ftm)" ru="фатом, морская сажень (ftm)" ratio="0.5468066" />
+		</system>
+		<system en="Optical units" ru="Оптические единицы">
+			<unit en="diopter (dpt)" ru="диоптрия (дптр)" ratio="1.0" sp_id="0" />
+		</system>
+		<system en="Geographical units (German)" ru="Географ. единицы (немецкие)">
+			<unit en="geographical mile" ru="географическая миля" ratio="0.0001347709" />
+		</system>
+		<system en="Typographical units (ATA system)" ru="Типограф. единицы (система ATA)">
+			<unit en="pica" ru="пика" ratio="237.1132" />
+			<unit en="pica (PostScript)" ru="пика (PostScript)" ratio="236.2205" />
+			<unit en="point (pt)" ru="пункт (пт)" ratio="2845.358" />
+			<unit en="point (PostScript) (pt)" ru="пункт (PostScript) (пт)" ratio="2834.646" />
+			<unit en="pixel (px)" ru="пиксель (px)" ratio="3793.811" />
+			<unit en="twip" ru="твип" ratio="56907.16" />
+		</system>
+		<system en="Typographical units (Didot system)" ru="Типограф. единицы (сист. Дидо)">
+			<unit en="cicero" ru="цицеро" ratio="221.6312" />
+			<unit en="point (pt)" ru="пункт (пт)" ratio="2659.575" />
+		</system>
+		<system en="Astronomical units" ru="Астрономические единицы">
+			<unit en="red shift (z)" ru="красное смещение (z)" ratio="7.675934e-27" />
+			<unit en="parsec (pc)" ru="парсек (пк)" ratio="3.240779e-17" />
+			<unit en="light year" ru="световой год (св.г.)" ratio="1.057023e-16" />
+			<unit en="astronomical unit (au)" ru="астрономическая единица (а.е.)" ratio="6.684587e-12" />
+			<unit en="light minute" ru="световая минута" ratio="5.559402e-11" />
+			<unit en="light second" ru="световая секунда" ratio="3.335641e-9" />
+		</system>
+		<system en="Japanese units" ru="Японские единицы">
+			<unit en="ri" ru="ри" ratio="0.0002546279" />
+			<unit en="kairi" ru="каири" ratio="0.0005399568" />
+			<unit en="cho" ru="чо" ratio="0.009166603" />
+			<unit en="jyo" ru="джоу" ratio="0.3299977" />
+			<unit en="ken" ru="кен" ratio="0.5499962" />
+			<unit en="shyaku" ru="ши-яку" ratio="3.299977" />
+			<unit en="sun" ru="сан" ratio="32.99977" />
+			<unit en="mon" ru="мон" ratio="41.66667" />
+		</system>
+		<system en="Chinese imperial units" ru="Китайские империальные единицы">
+			<unit en="li" ru="ли" ratio="0.002" />
+			<unit en="yin" ru="уин" ratio="0.03" />
+			<unit en="zhang" ru="жанг" ratio="0.3" />
+			<unit en="bu" ru="бу" ratio="0.6" />
+			<unit en="chi" ru="чи" ratio="3.0" />
+			<unit en="cun" ru="кан" ratio="30.0" />
+			<unit en="fen" ru="фен" ratio="300.0" />
+			<unit en="li (small)" ru="ли (малое)" ratio="3000.0" />
+			<unit en="hao" ru="хао" ratio="30000.0" />
+			<unit en="si" ru="си" ratio="300000.0" />
+			<unit en="hu" ru="ху" ratio="3000000.0" />
+		</system>
+		<system en="Thai units" ru="Тайские единицы">
+			<unit en="yote" ru="йоут" ratio="6.251e-5" />
+			<unit en="sen" ru="сен" ratio="0.025004" />
+			<unit en="wah" ru="ва" ratio="0.50008" />
+			<unit en="sawk" ru="соук" ratio="2.00032" />
+			<unit en="keub" ru="кеуб" ratio="4.00064" />
+			<unit en="nieu" ru="ньё" ratio="48.00768" />
+			<unit en="kabiet" ru="кабьет" ratio="192.0307" />
+		</system>
+		<system en="Old French units" ru="Старые французские единицы">
+			<unit en="lieue commune" ru="лье общественный" ratio="0.0002246181" />
+			<unit en="lieue marine" ru="лье морской" ratio="0.0002252252" />
+			<unit en="lieue de post" ru="лье почтовый" ratio="0.0002565365" />
+			<unit en="lieue metrique" ru="лье метрический" ratio="0.00025" />
+			<unit en="arpent" ru="арпан" ratio="0.01710244" />
+			<unit en="perche" ru="перш" ratio="0.1710244" />
+			<unit en="toise" ru="туаз" ratio="0.5130731" />
+			<unit en="pied" ru="пье" ratio="3.078439" />
+			<unit en="pouce" ru="пус" ratio="36.94126" />
+			<unit en="ligne" ru="линь" ratio="443.2952" />
+		</system>
+		<system en="Old Spanish and Portuguese units" ru="Старые испанские единицы">
+			<unit en="legua" ru="лига" ratio="0.0002392631" />
+			<unit en="paso" ru="пасо" ratio="0.7177892" />
+			<unit en="vara" ru="вара" ratio="1.196315" />
+			<unit en="pie" ru="пье" ratio="3.588946" />
+			<unit en="pulgada" ru="пульгада" ratio="43.06735" />
+			<unit en="linea" ru="линеа" ratio="516.8082" />
+			<unit en="punto" ru="пунто" ratio="6201.699" />
+		</system>
+		<system en="Old Russian units" ru="Старорусские единицы">
+			<unit en="mile" ru="миля" ratio="0.0001339118" />
+			<unit en="verst" ru="верста" ratio="0.0009373828" />
+			<unit en="mezhevaya verst" ru="межевая верста" ratio="0.0004686914" />
+			<unit en="kosaya sazhen" ru="косая сажень" ratio="0.4032258" />
+			<unit en="sazhen" ru="сажень" ratio="0.4686914" />
+			<unit en="makhovaya sazhen" ru="маховая сажень" ratio="0.5681818" />
+			<unit en="arshin" ru="аршин" ratio="1.406074" />
+			<unit en="ell" ru="локоть" ratio="2.380952" />
+			<unit en="foot" ru="фут" ratio="3.28084" />
+			<unit en="line" ru="линия" ratio="393.7008" />
+			<unit en="inch" ru="дюйм" ratio="39.37008" />
+			<unit en="vershok" ru="вершок" ratio="22.49719" />
+			<unit en="pyad" ru="пядь" ratio="5.624297" />
+		</system>
+		<system en="Ancient Roman units" ru="Древнеримские единицы">
+			<unit en="millarium" ru="милларий" ratio="0.0006259389" />
+			<unit en="akt" ru="акт" ratio="0.02608079" />
+			<unit en="decimpeda" ru="децимпеда" ratio="0.3129694" />
+			<unit en="pace" ru="пасс (шаг)" ratio="0.6259389" />
+			<unit en="cubit" ru="кубит" ratio="2.086463" />
+			<unit en="ped legal" ru="пед легальный" ratio="3.756574" />
+			<unit en="ped (ordinary)" ru="пед (обыкновенный)" ratio="3.129694" />
+			<unit en="ounce (inch)" ru="унция (дюйм)" ratio="37.55633" />
+			<unit en="digit" ru="дигит" ratio="50.07511" />
+		</system>
+		<system en="Biblical units" ru="Библейские единицы">
+			<unit en="cubit" ru="кубит" ratio="2.187227" />
+			<unit en="span" ru="спан" ratio="4.374453" />
+			<unit en="handbreadth" ru="ладонь" ratio="13.12336" />
+			<unit en="thumbbreadth" ru="палец" ratio="52.49344" />
+		</system>
+		<system en="Ancient Greek units" ru="Древнегреческие единицы">
+			<unit en="stadium olympic" ru="стадий олимпийский" ratio="0.005201019" />
+			<unit en="stadium attic" ru="стадий аттический" ratio="0.00540599" />
+			<unit en="stadium ptolemy" ru="стадий птолемеевский" ratio="0.005405405" />
+			<unit en="thousand of orgium" ru="тысяча оргий" ratio="0.0005402485" />
+			<unit en="mile" ru="миля" ratio="0.0007203313" />
+		</system>
+	</category>
+	<category en="Capacity and volume" ru="Объем и вместимость" ref="1" icon_path="volume_icon.png" small_icon_path="volume_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="cubic kilometer (km³)" ru="кубический километр (км³)" ratio="1.0e-9" />
+			<unit en="cubic meter (m³)" ru="кубический метр (м³)" ratio="1.0" />
+			<unit en="cubic decimeter (dm³)" ru="кубический дециметр (дм³)" ratio="1000.0" />
+			<unit en="cubic centimeter (cc)" ru="кубический сантиметр (см³)" ratio="1000000.0" />
+			<unit en="cubic millimeter (mm³)" ru="кубический миллиметр (мм³)" ratio="1.0e+9" />
+			<unit en="hectoliter (hl)" ru="гектолитр (hl)" ratio="10.0" />
+			<unit en="decaliter (dal)" ru="декалитр (дал)" ratio="100.0" />
+			<unit en="liter (l)" ru="литр (л)" ratio="1000.0" />
+			<unit en="deciliter (dl)" ru="децилитр (дл)" ratio="10000.0" />
+			<unit en="centiliter (cl)" ru="сантилитр (сл)" ratio="100000.0" />
+			<unit en="milliliter (ml)" ru="миллилитр (мл)" ratio="1000000.0" />
+			<unit en="microliter (µl)" ru="микролитр (мкл)" ratio="1.0e+9" />
+		</system>
+		<system en="U.S. liquid measure" ru="США (жидкости)">
+			<unit en="acre foot (acre ft)" ru="акр-фут (acre ft)" ratio="0.0008107132" />
+			<unit en="oil barrel (bbl)" ru="нефтяной баррель (bbl)" ratio="6.289811" />
+			<unit en="gallon (gal)" ru="галлон (gal)" ratio="264.1721" />
+			<unit en="quart (qt)" ru="кварта (qt)" ratio="1056.688" />
+			<unit en="pint (pt)" ru="пинта (pt)" ratio="2113.376" />
+			<unit en="gill (gi)" ru="гилл (gi)" ratio="8453.506" />
+			<unit en="fluid ounce (fl oz)" ru="жидкая унция (fl oz)" ratio="33814.02" />
+			<unit en="fluid dram (fl dr)" ru="жидкая драхма (fl dr)" ratio="270512.2" />
+			<unit en="minim (min)" ru="миним (min)" ratio="1.623073e+7" />
+		</system>
+		<system en="U.S. dry measure" ru="США (сыпучие вещества)">
+			<unit en="barrel (bbl)" ru="баррель (bbl)" ratio="8.64849" />
+			<unit en="bushel (bu)" ru="бушель (bu)" ratio="28.37759" />
+			<unit en="peck (pk)" ru="пек (pk)" ratio="113.5104" />
+			<unit en="gallon (gal)" ru="галлон (gal)" ratio="227.0207" />
+			<unit en="quart (qt)" ru="кварта (qt)" ratio="908.083" />
+			<unit en="pint (pt)" ru="пинта (pt)" ratio="1816.166" />
+			<unit en="gill (gi)" ru="гилл (gi)" ratio="7264.664" />
+		</system>
+		<system en="British units" ru="Британская система">
+			<unit en="perch" ru="перч" ratio="1.426855" />
+			<unit en="barrel (bbl)" ru="баррель (сухой) (bbl)" ratio="6.110602" />
+			<unit en="bushel (bu)" ru="бушель (bu)" ratio="27.4961" />
+			<unit en="peck (pk)" ru="пек (pk)" ratio="109.9844" />
+			<unit en="gallon (gal)" ru="галлон (gal)" ratio="219.9688" />
+			<unit en="quart (qt)" ru="кварта (qt)" ratio="879.8752" />
+			<unit en="pint (pt)" ru="пинта (pt)" ratio="1759.75" />
+			<unit en="fluid ounce (fl oz)" ru="жидкая унция (fl oz)" ratio="35195.01" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="cubic yard (yd³)" ru="кубический ярд (yd³)" ratio="1.307951" />
+			<unit en="cubic foot (ft³)" ru="кубический фут (ft³)" ratio="35.31467" />
+			<unit en="cubic inch (in³)" ru="кубический дюйм (in³)" ratio="61023.74" />
+		</system>
+		<system en="Cooking (U.S.)" ru="Кулинарные единицы (США)">
+			<unit en="cup (cp)" ru="стакан (cp)" ratio="4226.753" />
+			<unit en="tablespoon (Tbsp)" ru="столовая ложка (Tbsp)" ratio="67628.04" />
+			<unit en="teaspoon (tsp)" ru="чайная ложка (tsp)" ratio="202884.1" />
+		</system>
+		<system en="Cooking (international)" ru="Кулинарные единицы (междунар.)">
+			<unit en="cup" ru="стакан" ratio="4166.667" />
+			<unit en="tablespoon" ru="столовая ложка" ratio="66666.67" />
+			<unit en="teaspoon" ru="чайная ложка " ratio="200000.0" />
+		</system>
+		<system en="Japanese units" ru="Японские единицы">
+			<unit en="koku" ru="коку" ratio="5.543548" />
+			<unit en="to" ru="то" ratio="55.43548" />
+			<unit en="sho" ru="шо" ratio="554.3548" />
+			<unit en="go" ru="го" ratio="5543.548" />
+		</system>
+		<system en="Chinese imperial units" ru="Китайские империальные единицы">
+			<unit en="dan" ru="дан" ratio="10.0" />
+			<unit en="dou" ru="доу" ratio="100.0" />
+			<unit en="sheng" ru="шенг" ratio="1000.0" />
+			<unit en="ge" ru="ге" ratio="10000.0" />
+			<unit en="shao" ru="шао" ratio="100000.0" />
+			<unit en="cuo" ru="куо" ratio="1000000.0" />
+		</system>
+		<system en="Thai units" ru="Тайские единицы">
+			<unit en="kwien" ru="квьен" ratio="0.5" />
+			<unit en="ban" ru="бан" ratio="1.0" />
+			<unit en="sat" ru="сат" ratio="50.0" />
+			<unit en="tanan" ru="танан" ratio="1000.0" />
+		</system>
+		<system en="Old French units" ru="Старые французские единицы">
+			<unit en="minot" ru="мино" ratio="29.41176" />
+			<unit en="litron" ru="литрон" ratio="1203.343" />
+		</system>
+		<system en="Old Russian liquid measure" ru="Старорусские единицы (жидкости)">
+			<unit en="vedro" ru="ведро" ratio="81.30081" />
+			<unit en="shtoff" ru="штоф (кружка)" ratio="813.0081" />
+			<unit en="chetvert" ru="четверть" ratio="325.2033" />
+			<unit en="vine bottle" ru="винная бутылка" ratio="1300.813" />
+			<unit en="vodka bottle" ru="водочная бутылка" ratio="1626.016" />
+			<unit en="charka" ru="чарка" ratio="8130.081" />
+			<unit en="shkalik" ru="шкалик" ratio="16260.16" />
+		</system>
+		<system en="Old Russian dry measure" ru="Старорусские единицы (сып. вещ.)">
+			<unit en="cetverik (mera)" ru="четверик (мера)" ratio="38.11208" />
+			<unit en="vedro" ru="ведро" ratio="81.30081" />
+			<unit en="garnetz" ru="гарнец" ratio="304.8966" />
+		</system>
+		<system en="Ancient Roman liquid measure" ru="Древнеримские единицы (жидк.)">
+			<unit en="kulee (dolee)" ru="кулей (долей)" ratio="1.914828" />
+			<unit en="amphora" ru="амфора" ratio="38.29657" />
+			<unit en="urn" ru="урна" ratio="76.59314" />
+			<unit en="kognee" ru="когния" ratio="306.3725" />
+			<unit en="sextarium" ru="секстарий" ratio="1838.235" />
+			<unit en="gemin" ru="гемин" ratio="3676.471" />
+			<unit en="quart" ru="кварт" ratio="7352.941" />
+			<unit en="acetabul" ru="ацетабула" ratio="14705.88" />
+			<unit en="ciate" ru="циат" ratio="22058.82" />
+		</system>
+		<system en="Ancient Roman dry measure" ru="Древнеримские единицы (сып. вещ.)">
+			<unit en="cubic ped (quadrantal)" ru="кубический пед (квадрантал)" ratio="38.29657" />
+			<unit en="modium" ru="модий" ratio="114.8897" />
+			<unit en="semodium" ru="семодий" ratio="229.7794" />
+			<unit en="sextarium" ru="секстарий" ratio="1838.235" />
+			<unit en="quartarium" ru="квартарий" ratio="7352.941" />
+		</system>
+		<system en="Biblical liquid measure" ru="Библейские единицы (жидкости)">
+			<unit en="bath" ru="бас" ratio="44.02867" />
+			<unit en="hin" ru="хин" ratio="264.1721" />
+			<unit en="log" ru="лог" ratio="3170.065" />
+		</system>
+		<system en="Biblical dry measure" ru="Библейские единицы (сып. вещ.)">
+			<unit en="cor (homer)" ru="кор" ratio="4.729599" />
+			<unit en="lethek" ru="летек" ratio="9.459198" />
+			<unit en="ephah" ru="эпах" ratio="47.29599" />
+			<unit en="seah" ru="сих" ratio="141.888" />
+			<unit en="omer" ru="омер" ratio="472.9599" />
+			<unit en="cab" ru="каб" ratio="851.3278" />
+		</system>
+	</category>
+	<category en="Area" ru="Площадь" ref="1" icon_path="area_icon.png" small_icon_path="area_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="square kilometer (km²)" ru="квадратный километр (км²)" ratio="1.0e-6" />
+			<unit en="square meter (m²)" ru="квадратный метр (м²) " ratio="1.0" />
+			<unit en="square centimeter (cm²)" ru="квадратный сантиметр (см²)" ratio="10000.0" />
+			<unit en="square millimeter (mm²)" ru="квадратный миллиметр (мм²) " ratio="1000000.0" />
+			<unit en="hectare (ha)" ru="гектар (га)" ratio="0.0001" />
+			<unit en="decare (dunam) (daa)" ru="декар (дунам) (даа)" ratio="0.001" />
+			<unit en="are (a)" ru="ар (сотка) (a)" ratio="0.01" />
+			<unit en="barn (b)" ru="барн (б)" ratio="1.0e+28" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="township (twp)" ru="тауншип (twp)" ratio="1.072506e-8" />
+			<unit en="square mile (mi²)" ru="квадратная миля (mi²)" ratio="3.861022e-7" />
+			<unit en="homestead" ru="хомстед" ratio="1.544409e-6" />
+			<unit en="acre" ru="акр" ratio="0.0002471054" />
+			<unit en="rood" ru="руд" ratio="0.0009884215" />
+			<unit en="square rod (perch)" ru="квадратный род (перч)" ratio="0.03953686" />
+			<unit en="square" ru="квадрат" ratio="0.1076391" />
+			<unit en="square yard (yd²)" ru="квадратный ярд (yd²)" ratio="1.19599" />
+			<unit en="square foot (ft²)" ru="квадратный фут (ft²)" ratio="10.76391" />
+			<unit en="square inch (in²)" ru="квадратный дюйм (in²)" ratio="1550.003" />
+		</system>
+		<system en="Japanese units" ru="Японские единицы">
+			<unit en="cho" ru="чо" ratio="0.0001008333" />
+			<unit en="tann" ru="танн" ratio="0.001008333" />
+			<unit en="se" ru="се" ratio="0.01008333" />
+			<unit en="tsubo" ru="цубо" ratio="0.3025" />
+		</system>
+		<system en="Chinese imperial units" ru="Китайские империальные единицы">
+			<unit en="qing" ru="квинг" ratio="1.5e-5" />
+			<unit en="mu" ru="му" ratio="0.0015" />
+			<unit en="square zhang" ru="квадратный жанг" ratio="0.09" />
+			<unit en="fen" ru="фен" ratio="0.015" />
+			<unit en="li" ru="ли" ratio="0.15" />
+			<unit en="square chi" ru="квадратный чи" ratio="9.0" />
+			<unit en="square cun" ru="квадратный кун" ratio="900.0" />
+		</system>
+		<system en="Thai units" ru="Тайские единицы">
+			<unit en="rai" ru="раи" ratio="0.000625" />
+			<unit en="ngan" ru="нган" ratio="0.0025" />
+			<unit en="talang wah" ru="таланг вах" ratio="0.25" />
+		</system>
+		<system en="Old French units" ru="Старые французские единицы">
+			<unit en="arpent" ru="арпан" ratio="0.0002924977" />
+			<unit en="royal square perche" ru="королевский квадратный перш" ratio="0.02924977" />
+			<unit en="square toise" ru="квадратный туаз" ratio="0.263248" />
+			<unit en="square pied" ru="квадратный пье" ratio="9.476926" />
+			<unit en="square pouce" ru="квадратный пус" ratio="1364.677" />
+		</system>
+		<system en="Old Spanish units" ru="Старые испанские единицы">
+			<unit en="square league" ru="квадратная лига" ratio="5.580015e-8" />
+			<unit en="labor" ru="лубор" ratio="1.395004e-6" />
+			<unit en="square vara" ru="квадратная вара" ratio="1.395004" />
+		</system>
+		<system en="Old Russian units" ru="Старорусская система">
+			<unit en="desyatina (state)" ru="десятина (казенная)" ratio="9.152985e-5" />
+			<unit en="desyatina (farmery)" ru="десятина (хозяйственная)" ratio="6.864739e-5" />
+			<unit en="square verst" ru="квадратная верста" ratio="8.786866e-7" />
+			<unit en="square arshin" ru="квадратный аршин" ratio="1.977045" />
+			<unit en="square foot" ru="квадратный фут" ratio="10.76392" />
+		</system>
+		<system en="Ancient Roman units" ru="Древнеримские единицы">
+			<unit en="salt" ru="сальт" ratio="4.249342e-7" />
+			<unit en="century" ru="центурия" ratio="1.699737e-6" />
+			<unit en="geredium" ru="гередий" ratio="0.0001699737" />
+			<unit en="uger" ru="югер" ratio="0.0003399474" />
+			<unit en="klima" ru="клима" ratio="0.0006798947" />
+			<unit en="square akt" ru="квадратный акт" ratio="0.002719579" />
+			<unit en="square akt (small)" ru="квадратный акт (малый)" ratio="0.02447621" />
+			<unit en="square decimpeda" ru="квадратная децемпеда" ratio="0.09790484" />
+			<unit en="square ped (ordinary)" ru="квадратный пед (обыкновенный)" ratio="9.790484" />
+			<unit en="square ped (legal)" ru="квадратный пед (легальный)" ratio="11.39861" />
+		</system>
+	</category>
+	<category en="Speed" ru="Скорость" ref="1" icon_path="speed_icon.png" small_icon_path="speed_icon_title.png" sp_id="4">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="kilometer per second (km/s)" ru="километр в секунду (км/с)" ratio="0.001" />
+			<unit en="meter per second (m/s)" ru="метр в секунду (м/с)" ratio="1.0" />
+			<unit en="kilometer per hour (km/h)" ru="километр в час (км/ч)" ratio="3.6" />
+			<unit en="meter per minute (m/min)" ru="метр в минуту (м/мин)" ratio="60.0" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="mile per hour (mph)" ru="миля в час (mph)" ratio="2.236936" />
+			<unit en="mile per second" ru="миля в секунду" ratio="0.0006213712" />
+			<unit en="foot per minute (ft/min)" ru="фут в минуту (ft/min)" ratio="196.8504" />
+			<unit en="foot per second (ft/s)" ru="фут в секунду (ft/s)" ratio="3.28084" />
+		</system>
+		<system en="Running and jogging units" ru="Темп бега">
+			<unit en="minute per kilometer" ru="минута на километр" ratio="16.66667" sp_id="0" />
+			<unit en="second per kilometer" ru="секунда на километр" ratio="1000.0" sp_id="1" />
+			<unit en="second per 100 metres" ru="секунда на стометровку" ratio="100.0" sp_id="2" />
+			<unit en="minute per mile" ru="минута на милю" ratio="26.8224" sp_id="3" />
+			<unit en="second per mile" ru="секунда на милю" ratio="1609.344" sp_id="4" />
+			<unit en="second per 100 yards" ru="секунда на сто ярдов" ratio="91.44" sp_id="5" />
+		</system>
+		<system en="Nautical units" ru="Морские единицы">
+			<unit en="knot (kn)" ru="узел (kn)" ratio="1.943844" />
+			<unit en="nautical mile per hour (NM/h)" ru="морская миля в час (NM/ч)" ratio="1.943844" />
+		</system>
+		<system en="Other units" ru="Прочее">
+			<unit en="speed of sound in air (approx.)" ru="скорость звука в воздухе (приблиз.)" ratio="0.002941176" />
+			<unit en="speed of light in vacuum" ru="скорость света в вакууме" ratio="3.335641e-9" />
+		</system>
+	</category>
+	<category en="Acceleration" ru="Ускорение" ref="1" icon_path="accel_icon.png" small_icon_path="accel_icon_title.png" sp_id="3">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="km per second squared (km/s²)" ru="км в секунду в квадрате (км/с²)" ratio="0.001" />
+			<unit en="meter per second squared (m/s²)" ru="метр в секунду в квадрате (м/с²)" ratio="1.0" />
+			<unit en="mm per second squared (mm/s²)" ru="мм в секунду в квадрате (мм/с²)" ratio="1000.0" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="mile per second squared" ru="миля в секунду в квадрате" ratio="0.0006213712" />
+			<unit en="foot per second squared (ft/s²)" ru="фут в секунду в квадрате (ft/s²)" ratio="3.28084" />
+			<unit en="inch per second squared (in/s²)" ru="дюйм в секунду в квадрате (in/s²)" ratio="39.37008" />
+		</system>
+		<system en="Other units" ru="Другие единицы">
+			<unit en="Galileo (Gal)" ru="Галелео (Gal)" ratio="100.0" />
+		</system>
+		<system en="Car performance" ru="Разгон автомобиля">
+			<unit en="seconds from 0 to 100 km/h" ru="секунд от 0 до 100 км/ч" ratio="27.77778" sp_id="0" />
+			<unit en="seconds from 0 to 60 mph" ru="секунд от 0 до 60 миль в час" ratio="26.8224" sp_id="1" />
+			<unit en="seconds from 0 to 100 mph" ru="секунд от 0 до 100 миль в час" ratio="44.704" sp_id="2" />
+			<unit en="seconds from 0 to 200 mph" ru="секунд от 0 до 200 миль в час" ratio="89.408" sp_id="3" />
+		</system>
+		<system en="Gravitational acceleration" ru="Ускорение свободного падения">
+			<unit en="gravitational accel. on Earth (g)" ru="уск. своб. падения на Земле (g)" ratio="0.1019716" />
+			<unit en="gravitational accel. on the Moon" ru="уск. свободного падения на Луне" ratio="0.625" />
+			<unit en="gravitational accel. on Mars" ru="уск. свободного падения на Марсе" ratio="0.2702703" />
+			<unit en="gravitational accel. on Venus" ru="уск. свободного падения на Венере" ratio="0.1123596" />
+		</system>
+	</category>
+	<category en="Time" ru="Время" ref="5" icon_path="time_icon.png" small_icon_path="time_icon_title.png">
+		<system en="Common units" ru="Повседневные единицы">
+			<unit en="century" ru="век" ratio="2.737909e-5" />
+			<unit en="Gregorian year (approx.)" ru="год григорианский (приблиз.)" ratio="0.002737909" />
+			<unit en="Julian year (approx.)" ru="год юлианский (приблиз.)" ratio="0.002737851" />
+			<unit en="calendar month (approx.)" ru="календарный месяц (приблиз.)" ratio="0.03285491" />
+			<unit en="week" ru="неделя" ratio="0.1428571" />
+			<unit en="day" ru="сутки" ratio="1.0" />
+			<unit en="hour (h)" ru="час (ч)" ratio="24.0" />
+			<unit en="minute (min)" ru="минута (мин)" ratio="1440.0" />
+			<unit en="second (s)" ru="секунда (c)" ratio="86400" />
+		</system>
+		<system en="Astronomical units" ru="Астрономические единицы">
+			<unit en="anomalistic year" ru="аномалистический год" ratio="0.002737778" />
+			<unit en="sidereal year" ru="сидерический год" ratio="0.002737803" />
+			<unit en="tropic year" ru="тропический год" ratio="0.002737909" />
+			<unit en="draconic year" ru="драконический год" ratio="0.002885003" />
+			<unit en="synodic month" ru="синодический месяц" ratio="0.03386319" />
+			<unit en="sidereal month" ru="сидерический месяц" ratio="0.03660099" />
+			<unit en="tropical month" ru="тропический месяц" ratio="0.036601101649" />
+			<unit en="anomalistic month" ru="аномалистический месяц" ratio="0.03629165" />
+			<unit en="draconic month" ru="драконический месяц" ratio="0.03674871" />
+		</system>
+	</category>
+	<category en="Pressure and stress" ru="Давление" ref="5" icon_path="pressure_icon.png" small_icon_path="pressure_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="bar" ru="бар" ratio="1.0e-5" />
+			<unit en="millibar (mbar)" ru="миллибар (мбар)" ratio="0.01" />
+			<unit en="megapascal (MPa)" ru="мегапаскаль (МПа)" ratio="1.0e-6" />
+			<unit en="hectopascal (hPa)" ru="гектопаскаль (гПа)" ratio="0.01" />
+			<unit en="kilopascal (kPa)" ru="килопаскаль (кПа)" ratio="0.001" />
+			<unit en="pascal (Pa)" ru="паскаль (Па)" ratio="1.0" />
+			<unit en="kg-force per sq. meter (kgf/m²)" ru="кг силы на кв. метр (кгс/м²)" ratio="0.1019716" />
+			<unit en="kg-force per sq. cm (kgf/cm²)" ru="кг силы на кв. см (кгс/см²)" ratio="1.019716e-5" />
+			<unit en="meganewton per sq. meter (MN/m²)" ru="меганьютон на кв. метр (МН/м²)" ratio="1.0e-6" />
+			<unit en="kilonewton per sq. meter (kN/m²)" ru="килоньютон на кв. метр (кН/м²)" ratio="0.001" />
+			<unit en="newton per square meter (N/m²)" ru="ньютон на кв. метр (Н/м²)" ratio="1.0" />
+			<unit en="newton per square centimeter (N/cm²)" ru="ньютон на кв. сантиметр (Н/см²)" ratio="0.0001" />
+			<unit en="newton per square millimeter (N/mm²)" ru="ньютон на кв. мм (Н/мм²) " ratio="1.0e-6" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="pound-force per square foot (lbf/ft²)" ru="фунт силы на кв. фут (lbf/ft²)" ratio="0.02088543" />
+			<unit en="1000 pounds-force per square inch (ksi)" ru="1000 фунтов силы на кв. дюйм (ksi)" ratio="1.450377e-7" />
+			<unit en="pound-force per square inch (psi)" ru="фунт силы на кв. дюйм (psi)" ratio="0.0001450377" />
+			<unit en="short ton (USA) per square foot" ru="тонна силы (США) на кв. фут" ratio="1.044272e-5" />
+			<unit en="short ton (USA) per square inch" ru="тонна силы (США) на кв. дюйм" ratio="7.251887e-8" />
+			<unit en="long ton (UK) per square foot" ru="тонна силы (брит.) на кв. фут" ratio="9.323854e-6" />
+			<unit en="long ton (UK) per square inch " ru="тонна силы (брит.) на кв. дюйм" ratio="6.474899e-8" />
+		</system>
+		<system en="Mercury" ru="Единицы ртутного столба">
+			<unit en="centimeter of mercury" ru="сантиметр ртутного столба" ratio="0.0007500616" />
+			<unit en="mm of mercury (Torr, mmHg)" ru="мм ртутного столба (Торр)" ratio="0.007500616" />
+			<unit en="inch of mercury" ru="дюйм ртутного столба" ratio="0.0002952998" />
+		</system>
+		<system en="Water (at 39.2°F, 4°C)" ru="Вода (при 4°C, 39.2°F)">
+			<unit en="meter of water" ru="метр водяного столба" ratio="0.0001019744" />
+			<unit en="centimeter of water" ru="сантиметр водяного столба" ratio="0.01019744" />
+			<unit en="inch of water" ru="дюйм водяного столба" ratio="0.004014742" />
+		</system>
+		<system en="Atmosphere" ru="Атмосфера">
+			<unit en="physical atmosphere (atm)" ru="физическая атмосфера (атм)" ratio="9.869233e-6" />
+			<unit en="technical atmosphere (at)" ru="техническая атмосфера (ат)" ratio="1.019716e-5" />
+		</system>
+	</category>
+	<category en="Circular measure" ru="Угловая мера" ref="3" icon_path="angle_icon.png" small_icon_path="angle_icon_title.png">
+		<system en="Common units" ru="Общеупотребительные единицы">
+			<unit en="circumference" ru="окружность" ratio="0.002777778" />
+			<unit en="sextant" ru="секстант" ratio="0.01666667" />
+			<unit en="radian (rad)" ru="радиан (рад)" ratio="0.01745329" />
+			<unit en="grade" ru="град" ratio="1.111111" />
+			<unit en="degree (°)" ru="градус (°)" ratio="1.0" />
+			<unit en="minute" ru="минута (')" ratio="60" />
+			<unit en="second" ru="секунда (&quot;)" ratio="3600" />
+		</system>
+		<system en="Nautical" ru="Морские единицы">
+			<unit en="nautical rhumb" ru="румб" ratio="0.08888889" />
+		</system>
+		<system en="Artillery" ru="Артиллерийские единицы">
+			<unit en="Russian thousandth" ru="русская тысячная" ratio="16.66667" />
+			<unit en="German thousandth" ru="немецкая тысячная" ratio="17.77778" />
+		</system>
+	</category>
+	<category en="Energy and work" ru="Энергия и работа" ref="2" icon_path="energy_icon.png" small_icon_path="energy_icon_title.png">
+		<system en="International System (SI)" ru="Международная система (СИ)">
+			<unit en="megajoule (MJ)" ru="мегаджоуль (МДж)" ratio="1.0e-6" />
+			<unit en="kilojoule (kJ)" ru="килоджоуль (кДж)" ratio="0.001" />
+			<unit en="joule (J)" ru="джоуль (Дж)" ratio="1.0" />
+		</system>
+		<system en="Common units" ru="СГС и внесистемные единицы">
+			<unit en="megacalorie (Mcal)" ru="мегакалория (Мкал)" ratio="2.388459e-7" />
+			<unit en="kilocalorie (kcal)" ru="килокалория (ккал)" ratio="0.0002388459" />
+			<unit en="calorie (cal)" ru="калория (кал)" ratio="0.2388459" />
+			<unit en="meter-kilogram (mkg)" ru="метр-килограмм (кГм)" ratio="0.1026082" />
+			<unit en="kilowatt-hour (kW·h)" ru="киловатт-час (кВт·ч)" ratio="2.777778e-7" />
+			<unit en="watt-hour (W·h)" ru="ватт-час (Вт·ч)" ratio="0.0002777778" />
+			<unit en="watt-second (W·s)" ru="ватт-секунда (Вт·с)" ratio="1.0" />
+			<unit en="erg" ru="эрг" ratio="1.0e+7" />
+			<unit en="electronvolt (eV)" ru="электронвольт (эВ)" ratio="6.24145e+18" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="quad" ru="квад" ratio="9.478134e-19" />
+			<unit en="therm" ru="терм" ratio="9.478134e-9" />
+			<unit en="British Thermal Unit (BTU)" ru="брит. термальная единица (BTU)" ratio="0.0009478134" />
+			<unit en="million BTU (MMBTU)" ru="миллион BTU (MMBTU)" ratio="9.478134e-10" />
+			<unit en="foot-pound (ft·lb)" ru="фут-фунт (ft·lb)" ratio="0.7375825" />
+		</system>
+		<system en="TNT energy equivalent" ru="Тротиловый эквивалент энергии">
+			<unit en="ton (metric) of TNT" ru="тонна тротила" ratio="2.168224e-10" />
+			<unit en="ton (USA) of TNT" ru="тонна (США) тротила" ratio="2.390057e-10" />
+			<unit en="kilogram of TNT" ru="килограмм тротила" ratio="2.168224e-7" />
+		</system>
+	</category>
+	<category en="Radiation doses" ru="Дозы радиации" ref="0" icon_path="radiation_icon.png" small_icon_path="radiation_icon_title.png">
+		<system en="Absorbed radiation doze" ru="Поглощённая доза">
+			<unit en="gray (Gy)" ru="грей (Гр)" ratio="1.0" />
+			<unit en="centigray (cGy)" ru="сантигрей (сГр)" ratio="100.0" />
+			<unit en="milligray (mGy)" ru="миллигрей (мГр)" ratio="1000.0" />
+			<unit en="microgray (µGy)" ru="микрогрей (мкГр)" ratio="1000000.0" />
+			<unit en="rad" ru="рад" ratio="100.0" />
+		</system>
+		<system en="Dose equivalent radiation" ru="Эффективная доза">
+			<unit en="sievert (Sv)" ru="зиверт (Зв)" ratio="1.0" />
+			<unit en="millisievert (mSv)" ru="миллизиверт (мЗв)" ratio="1000.0" />
+			<unit en="microsievert (µSv)" ru="микрозиверт (мкЗв)" ratio="1000000.0" />
+			<unit en="rem" ru="бэр" ratio="100.0" />
+			<unit en="millirem" ru="миллибэр" ratio="100000.0" />
+		</system>
+		<system en="Exposure to ionizing radiation" ru="Экспозиционная доза">
+			<unit en="roentgen (R)" ru="ренген (Р)" ratio="115.0" />
+			<unit en="milliroentgen (mR)" ru="миллиренген (мР)" ratio="115000.0" />
+			<unit en="microroentgen (µR)" ru="микроренген (мкР)" ratio="1.15e+8" />
+		</system>
+	</category>
+	<category en="Radioactivity" ru="Радиоактивность" ref="0" icon_path="radio_icon.png" small_icon_path="radio_icon_title.png">
+		<system en="International System (SI)" ru="Международная система (СИ)">
+			<unit en="gigabecquerel (GBq)" ru="гигабеккерель (ГБк)" ratio="1.0e-9" />
+			<unit en="megabecquerel (MBq)" ru="мегабеккерель (МБк)" ratio="1.0e-6" />
+			<unit en="kilobecquerel (kBq)" ru="килобеккерель (кБк)" ratio="0.001" />
+			<unit en="becquerel (Bq)" ru="беккерель (Бк)" ratio="1.0" />
+		</system>
+		<system en="Other units" ru="Другие единицы">
+			<unit en="curie (Ci)" ru="кюри (Ки)" ratio="2.702703e-11" />
+			<unit en="millicurie (mCi)" ru="милликюри (мКи)" ratio="2.702703e-8" />
+			<unit en="microcurie (µCi)" ru="микрокюри (мкКи)" ratio="2.702703e-5" />
+			<unit en="rutherford (rd)" ru="резерфорд (rd)" ratio="1.0e-6" />
+			<unit en="disintegrations per minute (dpm)" ru="распады в минуту (dpm)" ratio="60.0" />
+			<unit en="disintegrations per second" ru="распады в секунду" ratio="1.0" />
+		</system>
+	</category>
+	<category en="Temperature" ru="Температура" ref="0" icon_path="temp_icon.png" small_icon_path="temp_icon_title.png" sp_id="0">
+		<system en="Standard scales" ru="Температурные шкалы">
+			<unit en="Celsius degree (°C)" ru="градус Цельсия (°C)" ratio="1.0" sp_id="0" />
+			<unit en="Fahrenheit degree (°F)" ru="градус Фаренгейта (°F)" ratio="1.0" sp_id="1" />
+			<unit en="kelvin (K)" ru="кельвин (K)" ratio="1.0" sp_id="2" />
+			<unit en="Reaumur degree (°R)" ru="градус Реомюра (°R)" ratio="1.0" sp_id="3" />
+			<unit en="Rankine degree (°Ra)" ru="градус Ранкина (°Ra)" ratio="1.0" sp_id="4" />
+		</system>
+	</category>
+	<category en="Fuel consumption" ru="Расход топлива" ref="0" icon_path="fuel_icon.png" small_icon_path="fuel_icon_title.png" sp_id="1">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="liter per 100 km (l/100km)" ru="литр на 100 км (л/100км)" ratio="1.0" sp_id="0" />
+			<unit en="kilometer per liter (km/l)" ru="километр на литр (км/л)" ratio="1.0" sp_id="1" />
+		</system>
+		<system en="U.S. units" ru="Американские единицы">
+			<unit en="mile per gallon (mpg)" ru="миля на галлон (mpg)" ratio="1.0" sp_id="2" />
+			<unit en="gallon per 100 miles" ru="галлон на 100 миль" ratio="1.0" sp_id="3" />
+		</system>
+		<system en="British units" ru="Британские единицы">
+			<unit en="mile per gallon (mpg)" ru="миля на галлон (mpg)" ratio="1.0" sp_id="4" />
+			<unit en="gallon per 100 miles" ru="галлон на 100 миль" ratio="1.0" sp_id="5" />
+			<unit en="liter per 100 miles" ru="литр на 100 миль" ratio="1.0" sp_id="6" />
+		</system>
+	</category>
+	<category en="Power" ru="Мощность" ref="1" icon_path="power_icon.png" small_icon_path="power_icon_title.png">
+		<system en="International System (SI)" ru="Международная система (СИ)">
+			<unit en="megawatt (MW)" ru="мегаватт (МВт)" ratio="0.001" />
+			<unit en="kilowatt (kW)" ru="киловатт (кВт)" ratio="1.0" />
+			<unit en="watt (W)" ru="ватт (Вт)" ratio="1000.0" />
+			<unit en="volt-ampere (V·A)" ru="вольт-ампер (В·А)" ratio="1000.0" />
+		</system>
+		<system en="Common units" ru="СГС и внесистемные единицы">
+			<unit en="gigacalories per second (Gcal/s)" ru="гигакалорий в секунду (Гкал/с)" ratio="2.388459e-7" />
+			<unit en="kilocalories per second (kcal/s)" ru="килокалорий в секунду (ккал/с)" ratio="0.2388459" />
+			<unit en="calories per second (cal/s)" ru="калорий в секунду (кал/с)" ratio="238.8459" />
+			<unit en="gigacalories per hour (Gcal/hour)" ru="гигакалорий в час (Гкал/ч)" ratio="0.0008598452" />
+			<unit en="kilocalories per hour (kcal/hour)" ru="килокалорий в час (ккал/ч)" ratio="859.8452" />
+			<unit en="calories per hour (cal/hour)" ru="калорий в час (кал/ч)" ratio="859845.2" />
+			<unit en="boiler horsepower (bhp)" ru="котловая лошадиная сила" ratio="0.1019589" />
+			<unit en="electric horsepower (ehp)" ru="электрическая лошадиная сила" ratio="1.34048" />
+			<unit en="horsepower (hp)" ru="лошадиная сила (л.с.)" ratio="1.359619" />
+			<unit en="metric horsepower (mhp)" ru="метрическая лошадиная сила" ratio="1.35962" />
+			<unit en="kg-force-meter per sec. (kgf·m/s)" ru="кг-сила-метр в сек. (кгс·м/с)" ratio="101.9716" />
+			<unit en="joule per second (J/s)" ru="джоуль в секунду (Дж/с)" ratio="1000" />
+			<unit en="joule per hour (J/hour)" ru="джоуль в час (Дж/ч)" ratio="3600000" />
+			<unit en="erg per second (erg/s)" ru="эрг в секунду (эрг/с)" ratio="1.0e+10" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="British Thermal Unit per second" ru="брит. термальная единица в секунду" ratio="0.9478134" />
+			<unit en="British Thermal Unit per minute" ru="брит. термальная единица в минуту" ratio="56.8688" />
+			<unit en="British Thermal Unit per hour" ru="брит. термальная единица в час" ratio="3412.128" />
+			<unit en="foot-pound-force per second (ft·lbf/s)" ru="фут-фунт-сила в секунду (ft·lbf/s)" ratio="737.5621" />
+		</system>
+	</category>
+	<category en="Torque" ru="Крутящий момент" ref="0" icon_path="torque_icon.png" small_icon_path="torque_icon_title.png">
+		<system en="Metric system" ru="Метрические единицы">
+			<unit en="newton-meter (N·m)" ru="Ньютон-метр (Н·м)" ratio="1.0" />
+			<unit en="newton-centimeter (N·cm)" ru="Ньютон-сантиметр (Н·см)" ratio="100.0" />
+			<unit en="dyne-meter (dyn·m)" ru="дина-метр (дин·м)" ratio="100000" />
+			<unit en="dyne-centimeter (dyn·cm)" ru="дина-сантиметр (дин·см)" ratio="1.0e+7" />
+			<unit en="kilogram force- meter (kgf·m)" ru="килограмм силы- метр (кгс·м)" ratio="0.1019716" />
+			<unit en="kilogram force- centimeter (kgf·cm)" ru="килограмм силы- сантиметр (кгс·см)" ratio="10.19716" />
+			<unit en="gram force-meter (gf·m)" ru="грамм силы-метр (гс·м)" ratio="101.9716" />
+			<unit en="gram force- centimeter (gf·cm)" ru="грамм силы- сантиметр (гс·см)" ratio="10197.16" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="long ton force-foot (UK)" ru="длинная тонна силы-фут (брит.)" ratio="0.0003292688" />
+			<unit en="short ton force-foot (USA)" ru="короткая тонна силы-фут (США)" ratio="0.0003687811" />
+			<unit en="pound force-foot (ft·lbf)" ru="фунт силы-фут (ft·lbf)" ratio="0.7375622" />
+			<unit en="pound force-inch (in·lbf)" ru="фунт силы-дюйм (in·lbf)" ratio="8.850746" />
+			<unit en="ounce force-inch (in·ozf)" ru="унция силы-дюйм (in·ozf)" ratio="141.6119" />
+		</system>
+	</category>
+	<category en="Volumetric flow rate" ru="Скорость потока (объем)" ref="5" icon_path="volrate_icon.png" small_icon_path="volrate_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="cubic meter per second (m³/s)" ru="кубический метр в секунду (м³/с)" ratio="0.001" />
+			<unit en="cubic meter per minute (m³/min)" ru="кубический метр в минуту (м³/мин)" ratio="0.06" />
+			<unit en="cubic meter per hour (m³/hour)" ru="кубический метр в час (м³/ч)" ratio="3.6" />
+			<unit en="cubic meter per day (m³/day)" ru="кубический метр в день (м³/день)" ratio="86.4" />
+			<unit en="cubic meter per year (m³/year)" ru="кубический метр в год (м³/год)" ratio="31556.93" />
+			<unit en="liter per second (l/s)" ru="литр в секунду (л/с)" ratio="1.0" />
+			<unit en="liter per minute (l/min)" ru="литр в минуту (л/мин)" ratio="60" />
+			<unit en="liter per hour (l/hour)" ru="литр в час (л/ч)" ratio="3600" />
+			<unit en="liter per day (l/day)" ru="литр в день (л/день)" ratio="86400" />
+			<unit en="liter per year (l/year)" ru="литр в год (л/год)" ratio="3.155693e+7" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="acre-foot per second" ru="акр-фут в секунду" ratio="8.107132e-7" />
+			<unit en="acre-foot per minute" ru="акр-фут в минуту" ratio="4.864279e-5" />
+			<unit en="acre-foot per hour" ru="акр-фут в час" ratio="0.002918568" />
+			<unit en="acre-foot per day" ru="акр-фут в день" ratio="0.07004562" />
+			<unit en="acre-foot per year" ru="акр-фут в год" ratio="25.58362" />
+			<unit en="barrel (pet.) per second" ru="баррель (нефти) в секунду" ratio="0.006289811" />
+			<unit en="barrel (pet.) per minute" ru="баррель (нефти) в минуту" ratio="0.3773886" />
+			<unit en="barrel (pet.) per hour" ru="баррель (нефти) в час" ratio="22.64332" />
+			<unit en="barrel (pet.) per day" ru="баррель (нефти) в день" ratio="543.4397" />
+			<unit en="barrel (pet.) per year" ru="баррель (нефти) в год" ratio="198487.1" />
+			<unit en="U.S. gallon per second (gal/s)" ru="галлон (США) в секунду (gal/s)" ratio="0.264172" />
+			<unit en="U.S. gallon per minute (gal/min)" ru="галлон (США) в минуту (gal/min)" ratio="15.85032" />
+			<unit en="U.S. gallon per hour (gal/hour)" ru="галлон (США) в час (gal/hour)" ratio="951.0194" />
+			<unit en="U.S. gallon per day (gal/day)" ru="галлон (США) в день (gal/day)" ratio="22824.47" />
+			<unit en="U.S. gallon per year (gal/year)" ru="галлон (США) в год (gal/year)" ratio="8336458" />
+			<unit en="British gallon per second (gal/s)" ru="галлон (брит.) в секунду (gal/s)" ratio="0.2199688" />
+			<unit en="British gallon per minute (gal/min)" ru="галлон (брит.) в минуту (gal/min)" ratio="13.19813" />
+			<unit en="British gallon per hour (gal/hour)" ru="галлон (брит.) в час (gal/hour)" ratio="791.8877" />
+			<unit en="British gallon per day (gal/day)" ru="галлон (брит.) в день (gal/day)" ratio="19005.3" />
+			<unit en="British gallon per year (gal/year)" ru="галлон (брит.) в год (gal/year)" ratio="6941539" />
+			<unit en="cubic foot per second (ft³/s)" ru="кубический фут в секунду (ft³/s)" ratio="0.03531467" />
+			<unit en="cubic foot per minute (ft³/min)" ru="кубический фут в минуту (ft³/min)" ratio="2.11888" />
+			<unit en="cubic foot per hour (ft³/hour)" ru="кубический фут в час (ft³/hour)" ratio="127.1328" />
+			<unit en="cubic foot per day (ft³/day)" ru="кубический фут в день (ft³/day)" ratio="3051.187" />
+			<unit en="cubic foot per year (ft³/year)" ru="кубический фут в год (ft³/year)" ratio="1114422" />
+		</system>
+	</category>
+	<category en="Mass flow rate" ru="Скорость потока (масса)" ref="8" icon_path="wgtrate_icon.png" small_icon_path="wgtrate_icon_title.png">
+		<system en="Metric system" ru="Метрическая система">
+			<unit en="tonne per second (t/s)" ru="тонна в секунду (т/с)" ratio="1.0e-6" />
+			<unit en="tonne per minute (t/min)" ru="тонна в минуту (т/мин) " ratio="6.0e-5" />
+			<unit en="tonne per hour (t/hour)" ru="тонна в час (т/ч)" ratio="0.0036" />
+			<unit en="tonne per day (t/day)" ru="тонна в сутки (т/сутки)" ratio="0.0864" />
+			<unit en="kilogram per second (kg/s)" ru="килограм в секунду (кг/с)" ratio="0.001" />
+			<unit en="kilogram per minute (kg/min)" ru="килограм в минуту (кг/мин)" ratio="0.06" />
+			<unit en="kilogram per hour (kg/hour)" ru="килограм в час (кг/ч)" ratio="3.6" />
+			<unit en="kilogram per day (kg/day)" ru="килограм в сутки (кг/сутки)" ratio="86.4" />
+			<unit en="gram per second (g/s)" ru="грам в секунду (г/с)" ratio="1.0" />
+			<unit en="gram per minute (g/min)" ru="грам в минуту (г/мин)" ratio="60" />
+			<unit en="gram per hour (g/hour)" ru="грам в час (г/ч)" ratio="3600" />
+			<unit en="gram per day (g/day)" ru="грам в сутки (г/сутки)" ratio="86400" />
+		</system>
+		<system en="U.S. and British units" ru="США / Великобритания">
+			<unit en="long ton (UK) per second" ru="длинная тонна (брит.) в секунду" ratio="9.842065e-7" />
+			<unit en="long ton (UK) per minute" ru="длинная тонна (брит.) в минуту" ratio="5.905239e-5" />
+			<unit en="long ton (UK) per hour" ru="длинная тонна (брит.) в час" ratio="0.003543144" />
+			<unit en="long ton (UK) per day" ru="длинная тонна (брит.) в сутки" ratio="0.08503544" />
+			<unit en="short ton (USA) per second" ru="короткая тонна (США) в секунду" ratio="1.102311e-6" />
+			<unit en="short ton (USA) per minute" ru="короткая тонна (США) в минуту" ratio="6.613868e-5" />
+			<unit en="short ton (USA) per hour" ru="короткая тонна (США) в час" ratio="0.003968321" />
+			<unit en="short ton (USA) per day" ru="короткая тонна (США) в сутки" ratio="0.0952397" />
+			<unit en="pound per second (lb/s)" ru="фунт в секунду (lb/s)" ratio="0.002204623" />
+			<unit en="pound per minute (lb/min)" ru="фунт в минуту (lb/min)" ratio="0.1322774" />
+			<unit en="pound per hour (lb/hour)" ru="фунт в час (lb/hour)" ratio="7.936641" />
+			<unit en="pound per day (lb/day)" ru="фунт в сутки (lb/day)" ratio="190.4794" />
+			<unit en="ounce per second (oz/s)" ru="унция в секунду (oz/s)" ratio="0.03527396" />
+			<unit en="ounce per minute (oz/min)" ru="унция в минуту (oz/min)" ratio="2.116438" />
+			<unit en="ounce per hour (oz/hour)" ru="унция в час (oz/hour)" ratio="126.9863" />
+			<unit en="ounce per day (oz/day)" ru="унция в сутки (oz/day)" ratio="3047.67" />
+		</system>
+	</category>
+	<category en="Fractions and percent" ru="Доли и проценты" ref="0" icon_path="fractions_icon.png" small_icon_path="fractions_icon_title.png">
+		<system en="Quantity units" ru="Единицы количества">
+			<unit en="unit (1)" ru="единица (1)" ratio="1.0" />
+			<unit en="pair" ru="пара" ratio="0.5" />
+			<unit en="half-dozen" ru="полдюжины" ratio="0.1666667" />
+			<unit en="dozen" ru="дюжина" ratio="0.08333333" />
+			<unit en="baker's dozen" ru="чертова дюжина" ratio="0.07692308" />
+			<unit en="gross" ru="гросс" ratio="0.006944444" />
+		</system>
+		<system en="Percentages and parts" ru="Проценты и доли">
+			<unit en="percent (%)" ru="процент (%)" ratio="100" />
+			<unit en="permille (‰)" ru="промилле (‰)" ratio="1000" />
+			<unit en="parts per million (ppm)" ru="частей на миллион (ppm)" ratio="1000000" />
+			<unit en="parts per billion (ppb)" ru="частей на миллиард (ppb)" ratio="1.0e+9" />
+		</system>
+		<system en="Fractions" ru="Дроби">
+			<unit en="half (1/2)" ru="половина (1/2)" ratio="2.0" />
+			<unit en="one third (1/3)" ru="треть (1/3)" ratio="3.0" />
+			<unit en="one forth (1/4)" ru="четверть (1/4)" ratio="4.0" />
+			<unit en="one fifth (1/5)" ru="одна пятая (1/5)" ratio="5.0" />
+			<unit en="one sixth (1/6)" ru="одна шестая (1/6)" ratio="6.0" />
+			<unit en="one seventh (1/7)" ru="одна седьмая (1/7)" ratio="7.0" />
+			<unit en="one eighth (1/8)" ru="одна восьмая (1/8)" ratio="8.0" />
+			<unit en="one ninth (1/9)" ru="одна девятая (1/9)" ratio="9.0" />
+			<unit en="one tenth (1/10)" ru="одна десятая (1/10)" ratio="10.0" />
+		</system>
+		<system en="Amount of substance" ru="Количество вещества">
+			<unit en="mole (mol)" ru="моль" ratio="1.660539e-24" />
+			<unit en="millimole (mmol)" ru="миллимоль (ммоль)" ratio="1.660539e-21" />
+			<unit en="micromole (µmol)" ru="микромоль (мкмоль)" ratio="1.660539e-18" />
+		</system>
+		<system en="Number of performers" ru="Количество выступающих">
+			<unit en="solo" ru="солист" ratio="1.0" />
+			<unit en="duet" ru="дуэт" ratio="0.5" />
+			<unit en="trio" ru="трио" ratio="0.3333333" />
+			<unit en="quartet" ru="квартет" ratio="0.25" />
+			<unit en="quintet" ru="квинтет" ratio="0.2" />
+			<unit en="sextet" ru="сикстет" ratio="0.1666667" />
+			<unit en="septet" ru="септет" ratio="0.1428571" />
+			<unit en="octet" ru="октет" ratio="0.125" />
+		</system>
+	</category>
+	<category en="Computer storage" ru="Компьютерные единицы" ref="13" icon_path="storage_icon.png" small_icon_path="storage_icon_title.png">
+		<system en="Data storage and transmission" ru="Хранение и передача данных">
+			<unit en="exabit (Ebit)" ru="эксабит (Ebit)" ratio="6.938894e-18" />
+			<unit en="petabit (Pbit)" ru="петабит (Pbit)" ratio="7.105427e-15" />
+			<unit en="terabit (Tbit)" ru="терабит (Tbit)" ratio="7.275958e-12" />
+			<unit en="gigabit (Gbit)" ru="гигабит (Gbit)" ratio="7.45058e-9" />
+			<unit en="megabit (Mbit)" ru="мегабит (Mbit)" ratio="7.629395e-6" />
+			<unit en="kilobit (Kbit)" ru="килобит (Kbit)" ratio="0.0078125" />
+			<unit en="bit" ru="бит" ratio="8" />
+			<unit en="exabyte (Eb)" ru="эксабайт (Eb)" ratio="8.673617e-19" />
+			<unit en="petabyte (Pb)" ru="петабайт (Pb)" ratio="8.881784e-16" />
+			<unit en="terabyte (Tb)" ru="терабайт (Tb)" ratio="9.094947e-13" />
+			<unit en="gigabyte (Gb)" ru="гигабайт (Gb)" ratio="9.313226e-10" />
+			<unit en="megabyte (Mb)" ru="мегабайт (Mb)" ratio="9.536743e-7" />
+			<unit en="kilobyte (Kb)" ru="килобайт (Kb)" ratio="0.0009765625" />
+			<unit en="byte (octet)" ru="байт (октет)" ratio="1.0" />
+		</system>
+	</category>
+	<category en="Data transfer rate" ru="Скорость передачи данных" ref="9" icon_path="connection_icon.png" small_icon_path="connection_icon_title.png" sp_id="2">
+		<system en="Basic units" ru="Базовые единицы">
+			<unit en="terabit per second (Tbps)" ru="терабит в секунду (Tbps)" ratio="8.0e-12" />
+			<unit en="gigabit per second (Gbps)" ru="гигабит в секунду (Gbps)" ratio="8.0e-9" />
+			<unit en="megabit per second (Mbps)" ru="мегабит в секунду (Mbps)" ratio="8.0e-6" />
+			<unit en="kilobit per second (kbps)" ru="килобит в секунду (kbps)" ratio="0.008" />
+			<unit en="bit per second (bps)" ru="бит в секунду (bps)" ratio="8" />
+		</system>
+		<system en="Byte-based units" ru="Единицы на базе байта">
+			<unit en="terabyte per second (TB/s)" ru="терабайт в секунду (TB/s)" ratio="9.094947e-13" />
+			<unit en="gigabyte per second (GB/s)" ru="гигабайт в секунду (GB/s)" ratio="9.313226e-10" />
+			<unit en="megabyte per second (MB/s)" ru="мегабайт в секунду (MB/s)" ratio="9.536743e-7" />
+			<unit en="kilobyte per second (KB/s)" ru="килобайт в секунду (KB/s)" ratio="0.0009765625" />
+			<unit en="byte per second (B/s)" ru="байт в секунду (B/s)" ratio="1.0" />
+		</system>
+		<system en="Data transfer time" ru="Время на передачу данных">
+			<unit en="second per megabyte" ru="секунда на мегабайт" ratio="1048576" sp_id="0" />
+			<unit en="second per gigabyte" ru="секунда на гигабайт" ratio="1.073742e+9" sp_id="1" />
+			<unit en="minute per megabyte" ru="минута на мегабайт" ratio="17476.27" sp_id="2" />
+			<unit en="minute per gigabyte" ru="минута на гигабайт" ratio="1.78957e+07" sp_id="3" />
+			<unit en="hour per megabyte" ru="час на мегабайт" ratio="291.2711" sp_id="4" />
+			<unit en="hour per gigabyte" ru="час на гигабайт" ratio="298261.6" sp_id="5" />
+		</system>
+		<system en="Computer connection speed" ru="Cкорости соединения компьютеров">
+			<unit en="V.92 dial-up modem" ru="Dial-up модем V.92" ratio="0.0001428571" />
+			<unit en="Cable modem" ru="Кабельный модем" ratio="1111" />
+			<unit en="ISDN" ru="ISDN" ratio="0.000125" />
+			<unit en="GPRS" ru="GPRS" ratio="0.0001" />
+			<unit en="EDGE" ru="EDGE" ratio="3.378378e-5" />
+			<unit en="BlueTooth 1.0" ru="BlueTooth 1.0" ratio="1.106348e-5" />
+			<unit en="BlueTooth 2.0" ru="BlueTooth 2.0" ratio="3.809524e-6" />
+			<unit en="CMDA 1x" ru="CMDA 1x" ratio="4.907976e-5" />
+			<unit en="CDMA 1xEV-DO" ru="CDMA 1xEV-DO" ratio="3.333333e-6" />
+			<unit en="CDMA 1xEV-DO rev.A" ru="CDMA 1xEV-DO rev.A" ratio="2.580645e-6" />
+			<unit en="CDMA 1xEV-DO rev.B" ru="CDMA 1xEV-DO rev.B" ratio="1.632653e-6" />
+			<unit en="HSDPA (cat.6)" ru="HSDPA (cat.6)" ratio="2.222222e-6" />
+			<unit en="WiFi 802.11b" ru="WiFi 802.11b" ratio="1.777778e-6" />
+			<unit en="ADSL" ru="ADSL" ratio="1.0e-6" />
+			<unit en="ADSL2" ru="ADSL2" ratio="3.333333e-7" />
+			<unit en="USB 1.0" ru="USB 1.0" ratio="6.666667e-7" />
+			<unit en="USB 2.0" ru="USB 2.0" ratio="1.666667e-8" />
+			<unit en="T1" ru="T1" ratio="5.181347e-6" />
+			<unit en="E1" ru="E1" ratio="3.90625e-6" />
+			<unit en="Ethernet 10BASE-T" ru="Ethernet 10BASE-T" ratio="8.0e-7" />
+			<unit en="Ethernet 100BASE-T" ru="Ethernet 100BASE-T" ratio="8.0e-8" />
+			<unit en="Ethernet 1000BASE-T" ru="Ethernet 1000BASE-T" ratio="8.0e-9" />
+			<unit en="DS-3" ru="DS-3" ratio="1.788269e-7" />
+			<unit en="OC-3" ru="OC-3" ratio="5.144033e-8" />
+			<unit en="OC-12" ru="OC-12" ratio="1.286008e-8" />
+			<unit en="OC-48" ru="OC-48" ratio="3.215434e-9" />
+			<unit en="OC-192" ru="OC-192" ratio="8.037778e-10" />
+			<unit en="OC-768" ru="OC-768" ratio="2.009394e-10" />
+			<unit en="OC-1536" ru="OC-1536" ratio="1.005025e-10" />
+			<unit en="OC-3072" ru="OC-3072" ratio="5.025126e-11" />
+		</system>
+		<system en="Transfer rate per different time units" ru="Единицы на базе других интервалов">
+			<unit en="terabyte per minute" ru="терабайт в минуту" ratio="5.456968e-11" />
+			<unit en="gigabyte per minute" ru="гигабайт в минуту" ratio="5.587935e-8" />
+			<unit en="megabyte per minute" ru="мегабайт в минуту" ratio="5.722046e-5" />
+			<unit en="kilobyte per minute" ru="килобайт в минуту" ratio="0.05859375" />
+			<unit en="byte per minute" ru="байт в минуту" ratio="60" />
+			<unit en="terabyte per hour" ru="терабайт в час" ratio="3.274181e-9" />
+			<unit en="gigabyte per hour" ru="гигабайт в час" ratio="3.352761e-6" />
+			<unit en="megabyte per hour" ru="мегабайт в час" ratio="0.003433227" />
+			<unit en="kilobyte per hour" ru="килобайт в час" ratio="3.515625" />
+			<unit en="byte per hour" ru="байт в час" ratio="3600" />
+			<unit en="terabyte per day" ru="терабайт в сутки" ratio="7.858034e-8" />
+			<unit en="gigabyte per day" ru="гигабайт в сутки" ratio="8.046627e-5" />
+			<unit en="megabyte per day" ru="мегабайт в сутки" ratio="0.08239746" />
+			<unit en="kilobyte per day" ru="килобайт в сутки" ratio="84.375" />
+			<unit en="byte per day" ru="байт в сутки" ratio="86400" />
+			<unit en="terabyte per week" ru="терабайт в неделю" ratio="5.500624e-7" />
+			<unit en="gigabyte per week" ru="гигабайт в неделю" ratio="0.0005632639" />
+			<unit en="megabyte per week" ru="мегабайт в неделю" ratio="0.5767822" />
+			<unit en="kilobyte per week" ru="килобайт в неделю" ratio="590.625" />
+			<unit en="byte per week" ru="байт в неделю" ratio="604800" />
+		</system>
+	</category>
+</units_conversion>

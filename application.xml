@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Application>
+    <Entry>UnitConverter</Entry>
+    <Name>
+        <English>Unit Converter</English>
+        <rus-RU>Конвертер</rus-RU>
+        <ukr-UA>Конвертер</ukr-UA>
+    </Name>
+    <Vendor>Evgenii Dobrovidov</Vendor>
+    <Description>Simple application for converting values between units.</Description>
+    <Icons>
+        <MainMenu>UnitConverter.png<Type1>UnitConverter.png</Type1>
+            <Type2/>
+        </MainMenu>
+        <Setting/>
+        <Ticker/>
+        <QuickPanel/>
+        <LaunchImage>Splash.png<Type1>Splash.png</Type1>
+            <Type2/>
+        </LaunchImage>
+    </Icons>
+    <AutoScaling>
+        <Enabled>false</Enabled>
+    </AutoScaling>
+</Application>
